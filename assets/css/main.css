@@ -33,7 +33,16 @@ strong.data {
 	font-weight: bolder;
 }
 
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 
+.col-4 {
+	flex-basis: 33.33%;
+	max-width: 33.33%;
+}
 
 .custom-list {
 	list-style-type: none;
